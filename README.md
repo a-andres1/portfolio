@@ -8,6 +8,7 @@ I ended up only using one media query to accomplish what I wanted for small view
 
 There were a few things that I really wanted to mess around with more, like ways to continue to improve the look of my site as it got smaller, but as of right now it's a little out of my grasp. I'm going to keep coming back to it. 
 
-I really want to put a font awesome icon in a footer, but that's going to take a little more time to figure out. I found the code for a sticky footer, but the margins aren't working correctly. 
+I really want to put a font awesome icon in a footer, but that's going to take a little more time to figure out. I found the code for a sticky footer, but the top margins aren't working correctly. 
 
-I assume at some point I'm going to want to change the size of my portfolio pictures, but since I currently have not that much to put in my portfolio, I'm not going to do that yet. 
+I assume at some point I'm going to want to change the size of my portfolio pictures, but since I currently don't have that much to put in my portfolio, I'm not going to do that yet. 
+
