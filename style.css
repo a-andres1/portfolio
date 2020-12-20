@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 576px) {
   
+    /* responsive css for about me page */
     .main-abt{
       /* Box-model */
       width: 100%;
@@ -31,4 +32,11 @@
     #abt-me {
       margin-top: 40px;
     }
+
+    /* navbar css makes buttons smaller */
+
+    .nav-btn {
+        font-size: smaller;
+    }
+
   }
