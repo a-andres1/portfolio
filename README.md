@@ -12,3 +12,9 @@ I really want to put a font awesome icon in a footer, but that's going to take a
 
 I assume at some point I'm going to want to change the size of my portfolio pictures, but since I currently don't have that much to put in my portfolio, I'm not going to do that yet. 
 
+
+____
+### Notes
+Tomorrow (Friday) I'm going to give bulma a try. 
+
+I want my page to be one long page and Bulma seems to have the functionality that I'm looking for. Sorry bootstrap. 
