@@ -1,40 +1,16 @@
-
 body{
-  background-image: url(pexels-suzy-hazelwood-1629236.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.float{
-  float: right;
+#me{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    
 }
 
-
-
-/* responsive css for small screens */
-@media screen and (max-width: 576px) {
-  
-  /* responsive css for about me page */
-  .main-abt{
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
-  }
-
-  #photo,
-  #abt-me {
-    width: 100%;
-  }
-
-  #abt-me {
-    margin-top: 40px;
-  }
-
-  /* navbar css makes buttons smaller */
-  .nav-btn {
-      font-size: smaller;
-  }
-
-
+#navimg{
+    border-radius: 15%;
 }
