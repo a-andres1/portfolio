@@ -1,88 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- my CSS -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-  <!-- font awesome kit -->
-  <script src="https://kit.fontawesome.com/59e183f810.js" crossorigin="anonymous"></script>
-
-  <title>Alyssa Andres</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Alyssa Andres</title>
 </head>
 
-<body>
-  <!-- As a heading -->
-  <!-- <nav class="navbar navbar-light mb-3">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0" style="color:aliceblue">Alyssa Andres</span>
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <img id="navimg"src="A.png" alt="My initails">
+          </a>
+         
+          <a class="navbar-item" href="#projects">
+            Projects
+          </a>
 
-      <ul class="nav justify-content-end nav-pills">
-        <li class="nav-item nav-btn">
-          <a class="nav-link active" aria-current="page" href="#">About me</a>
-        </li>
-        <li class="nav-item nav-btn">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item nav-btn">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <button type="button" class="btn btn-link"><a href="https://www.linkedin.com/in/a-andres/"
-              target="_blank">Linkedin</a></button>
-        </li>
-
-      </ul> -->
-
-  <!-- </div>
-    </nav> -->
-
-
-
-
-
-  <main class="container">
-    <div class="row main-abt">
-      <div class="col-8 mt-1 ms-1 col-xs" style="width: 100%;">
-        <h1 style="color:aliceblue">Alyssa Andres</h1>
-      </div>
-
-      <!-- <div class="col-3 border mt-1 ms-1" id="photo" style="background-color: cornflowerblue;"><br><img src="me.jpg"
-          class="img-fluid" alt="Alyssa Andres">Pictured: Alyssa, after an actual haircut.</div>
-      <div class="col-5 border mt-1 ms-1" id="abt-me" style="background-color: cornflowerblue;"><br>Alyssa Andres got
-        her start making things early in life. She could often be found tinkering with something at her mother's flower
-        shop. She considered her designs ahead of her time, her mother considered them "interesting!"<br><br>In college
-        Alyssa found a love for history and anthropology. She enjoyed the opportunity to dig into the larger "whys" of
-        the world. <br><br> Since graduating, Alyssa has been working full time as a middle school teacher. Through her
-        experience in teaching she's learned to be adaptable and solve problems.</div> -->
-    </div>
-
-    <div class="col-2 mt-1 ms-1 float">
-      <p style="color:aliceblue">Some stuff</p>
-      <nav class="nav flex-column">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-link" href="contact.html">Contact</a>
+          <a class="navbar-item" href="#contact">
+            Contact
+          </a>
+   
       </nav>
-    </div>
-  </main>
+
+    <section class="hero is-link is-fullheight-with-navbar has-background-danger-light">
+        <div class="hero-body">
+            <p class="title has-text-grey">
+                Welcome,<br>
+                I'm Alyssa,<br>
+                Professional Puzzle Solver.<br>
+            </p>
+            <div class="column has-text-right">
+                <img id="me" src="me2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="section is-medium has-text-right">
+        <h1 class="title has-text-light">Fire is the test of gold; adversity, of strong men.</h1>
+        <h2 class="subtitle has-text-light">
+        <strong class="has-text-light">Seneca</strong>
+            
+        </h2>
+    </section>
+
+    <section id="projects" class="hero is-medium is-link has-background-primary-light">
+        <div class="hero-body">
+            <p class="title has-text-dark">
+                
+            </p>
+            <p class="subtitle has-text-dark">
+                <h2 class="menu-label is-size-2">
+                    My Projects so Far
+                </h2>
+                  <ul class="menu-list has-text-grey">
+                    <li id="feed"><a>Feed Me™</a></li>
+                    <li id="plan"><a>Daily Planner</a></li>
+                    <li id="weather"><a>Weather Dashboard</a></li>
+                  </ul>
+            </p>
+        </div>
+    </section>
+
+    <section class="section is-medium has-text-right">
+        <h1 class="title has-text-light">Development is a series of rebirths.</h1>
+        <h2 class="subtitle">
+            <strong class="has-text-light">Maria Montessori</strong>
+        </h2>
+    </section>
 
 
+    <section id="contact" class="hero is-medium is-link has-background-danger-light">
+        <div class="hero-body">
+            <div class="columns is-mobile has-text-grey">
+                <div class="column">
+                    <p class="title has-text-grey">
+                        Contact Me
+                    </p>
+                    <p class="subtitle">
+                    <ul>
+                        <li>E • mail: alyssaandres1@gmail.com</li>
+                        <li>Call • Me: ‪(404) 692-1904‬</li>
+                        <li>Other</li>
+                    </ul>
+                    </p>
+                </div>
 
-  <!-- <footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <i class="fab fa-linkedin-in"></i>
-  </div>
-</footer> -->
+            </div>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                This website made with the help of <a href="https://bulma.io/" target="_blank"><strong>Bulma</strong></a>.
+            </p>
+        </div>
+    </footer>
 
 </body>
 
