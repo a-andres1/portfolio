@@ -47,7 +47,7 @@ else if (proj === projectArray[2].title){
 const projectArray = [
     {
         title: "Feed Me™",
-        pics: "/Assets/feed-me.png",
+        pics: "./Assets/feed-me.png",
         explanation: "Words",
         repo: "https://github.com/a-andres1/feed-me-tm",
         deploy: "https://a-andres1.github.io/feed-me-tm/",
