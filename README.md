@@ -1,20 +1,60 @@
-# portfolio
+# portfolio • alyssa andres
 
-This assignment was a little more difficult, but that was mainly because of timing. It was a big week at work and this was an assignment that needed a lot of time. 
+## Description
+I was happy to take this opportunity to update my portfolio. It looks almost exactly how I want it. I think there are some more Javascript elements I would like to add, but I'm very happy with how it turned out.   
 
-The grids were tricky. They took me a while to get everything on my about me page situated in the way I wanted them. They still aren't exactly the way I have it envisioned in my head, so that's something I want to keep working on. I know this is something that we'll keep coming back to, so I expect that by the end of the class I'll like what I'm able to create a lot more. 
+![my portfolio](/Assets/portfolio.png)
 
-I ended up only using one media query to accomplish what I wanted for small view ports. I really enjoy how straightforward bootstrap is to work with. 
+For my portfolio, I really wanted everything to be on one page. I was looking for something a little more sleek than what I had last time.  
 
-There were a few things that I really wanted to mess around with more, like ways to continue to improve the look of my site as it got smaller, but as of right now it's a little out of my grasp. I'm going to keep coming back to it. 
+Finding [Bulma](https://bulma.io/) and using that css framework was really a godsend. I was able to create the kind of flow I wanted using their heros and sections frameworks.  
 
-I really want to put a font awesome icon in a footer, but that's going to take a little more time to figure out. I found the code for a sticky footer, but the top margins aren't working correctly. 
+### How my portfolio populates  
+![gif](/Assets/portfolio.gif)  
 
-I assume at some point I'm going to want to change the size of my portfolio pictures, but since I currently don't have that much to put in my portfolio, I'm not going to do that yet. 
+Using Javascript and jQuery I was able to create a dynamic way to show off my projects in my portfolio section. I'm particularly proud of that. I used an object with my project info to dynamically populate the card. Eventually I'd like the card to appear and disappear, but I'm not sure of the best way to do that without making the page feel a bit choppy currently.  
+
+## Technologies Used
+HTML  
+css  
+jQuery  
+Javasctipt  
+[Bulma](https://bulma.io/)  
+
+## Credits
+[Bebe Lawrence](https://github.com/Omlawrence24) was kind enough to show me her portfolio and introduce me to [Bulma](https://bulma.io/).
+
+## License Info 
+MIT License
+
+Copyright (c) 2021 a-andres1
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+[License](LICENSE)
+
+## Links
+[Repo](https://github.com/a-andres1/portfolio)  
+[Deployed Site](https://a-andres1.github.io/portfolio/)  
 
 
-____
-### Notes
-Tomorrow (Friday) I'm going to give bulma a try. 
+## Contact Info
+[email me](mailto:alyssaandres1@gmail.com)  
+[find me on github](https://github.com/a-andres1)
 
-I want my page to be one long page and Bulma seems to have the functionality that I'm looking for. Sorry bootstrap. 
+
