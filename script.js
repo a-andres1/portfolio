@@ -1,5 +1,6 @@
 $( document ).ready(function() {
     console.log( "document loaded" );
+    console.log(projectArray[0].title);
 });
 
 
@@ -7,11 +8,16 @@ $( document ).ready(function() {
 // function to call functions on clicks
 $(".pbtn").click(function () {
     console.log($(this).text())
+    var proj = $(this).text()
     displayCard();
+    writeCard(proj);
+    console.log(typeof proj)
 });
 
 $(".pbtn").mouseover(function () {
+    var proj = $(this).text()
     displayCard();
+    writeCard(proj);
 });
 
 // hides card once you leave projects. I want to make this less dramatic, but I want the card to go away more. 
@@ -19,6 +25,22 @@ projects.onmouseleave = function () {
     console.log("yes")
     pcard.style.display = "none";
 };
+
+function writeCard(proj) {
+if (proj === projectArray[0].title){
+    $("#pjpic").attr("src", projectArray[0].pics);
+}
+else if (proj === projectArray[1].title){
+    $("#pjpic").attr("src", projectArray[1].pics);
+
+}
+else if (proj === projectArray[2].title){
+    $("#pjpic").attr("src", projectArray[2].pics);
+
+}
+
+
+}
 
 
 // array for populating cards
