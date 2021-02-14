@@ -21,10 +21,10 @@ $(".pbtn").mouseover(function () {
 });
 
 // hides card once you leave projects. I want to make this less dramatic, but I want the card to go away more. 
-// projects.onmouseleave = function () {
-//     console.log("yes")
-//     pcard.style.display = "none";
-// };
+projects.onmouseleave = function () {
+    console.log("yes")
+    pcard.style.display = "none";
+};
 
 function writeCard(proj) {
 if (proj === projectArray[0].title){
