@@ -67,7 +67,7 @@ const projectArray = [
         title: "Feed Me™",
         pics: "./Assets/feed-me.png",
         alt: "screenshot of my project",
-        explanation: "For this project I worked with two other group members. With our app, we tried to help people complete the ardous task of picking a restaurant for dinner. Start by picking your cuisine, enter your address, enter your friends address, and Feed Me will find a restaurant for you.",
+        explanation: "For this project I worked with two other group members. With our app, we tried to help people complete the arduous task of picking a restaurant for dinner. Start by picking your cuisine, enter your address, enter your friends address, and Feed Me will find a restaurant for you.",
         repo: "https://github.com/a-andres1/feed-me-tm",
         deploy: "https://a-andres1.github.io/feed-me-tm/",
 
