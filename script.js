@@ -1,5 +1,5 @@
-$( document ).ready(function() {
-    console.log( "document loaded" );
+$(document).ready(function () {
+    console.log("document loaded");
     console.log(projectArray[0].title);
 });
 
@@ -27,48 +27,48 @@ $(".pbtn").mouseover(function () {
 // };
 
 function writeCard(proj) {
-if (proj === projectArray[0].title){
-    $("#pjpic").attr({src: projectArray[0].pics, alt: projectArray[0].alt});
-    $("#ctitle").text(projectArray[0].title);
-    $("#ex").text(projectArray[0].explanation);
-    $("#deployed").attr("href", projectArray[0].deploy);
-    $("#repo").attr("href",projectArray[0].repo);
-    $("#tyler").text("Tyler Gilbert").attr("href", "https://github.com/Tylergilbert913")
-    $("#deepali").text("Deepali Garg").attr("href", "https://github.com/Deepali-Gtech")
+    if (proj === projectArray[0].title) {
+        $("#pjpic").attr({ src: projectArray[0].pics, alt: projectArray[0].alt });
+        $("#ctitle").text(projectArray[0].title);
+        $("#ex").text(projectArray[0].explanation);
+        $("#deployed").attr("href", projectArray[0].deploy);
+        $("#repo").attr("href", projectArray[0].repo);
+        $("#tyler").text("Tyler Gilbert").attr("href", "https://github.com/Tylergilbert913")
+        $("#deepali").text("Deepali Garg").attr("href", "https://github.com/Deepali-Gtech")
 
-}
-else if (proj === projectArray[1].title){
-    $("#pjpic").attr({src: projectArray[1].pics, alt: projectArray[1].alt}); 
-    $("#ctitle").text(projectArray[1].title);
-    $("#ex").text(projectArray[1].explanation);
-    $("#deployed").attr("href", projectArray[1].deploy);
-    $("#repo").attr("href",projectArray[1].repo);
-    $("#tyler").text("");
-    $("#deepali").text("");
+    }
+    else if (proj === projectArray[1].title) {
+        $("#pjpic").attr({ src: projectArray[1].pics, alt: projectArray[1].alt });
+        $("#ctitle").text(projectArray[1].title);
+        $("#ex").text(projectArray[1].explanation);
+        $("#deployed").attr("href", projectArray[1].deploy);
+        $("#repo").attr("href", projectArray[1].repo);
+        $("#tyler").text("");
+        $("#deepali").text("");
 
-}
-else if (proj === projectArray[2].title){
-    $("#pjpic").attr({src: projectArray[2].pics, alt: projectArray[2].alt}); 
-    $("#ctitle").text(projectArray[2].title);
-    $("#ex").text(projectArray[2].explanation);
-    $("#deployed").attr("href", projectArray[2].deploy);
-    $("#repo").attr("href",projectArray[2].repo);
-    $("#tyler").text("");
-    $("#deepali").text("");
-}
+    }
+    else if (proj === projectArray[2].title) {
+        $("#pjpic").attr({ src: projectArray[2].pics, alt: projectArray[2].alt });
+        $("#ctitle").text(projectArray[2].title);
+        $("#ex").text(projectArray[2].explanation);
+        $("#deployed").attr("href", projectArray[2].deploy);
+        $("#repo").attr("href", projectArray[2].repo);
+        $("#tyler").text("");
+        $("#deepali").text("");
+    }
 
-else if (proj === projectArray[3].title){
-    $("#pjpic").attr({src: projectArray[3].pics, alt: projectArray[3].alt}); 
-    $("#ctitle").text(projectArray[3].title);
-    $("#ex").text(projectArray[3].explanation);
-    $("#deployed").attr("href", projectArray[3].deploy);
-    $("#repo").attr("href",projectArray[3].repo);
-    $("#tyler").text("");
-    $("#deepali").text("");
-}
+    else if (proj === projectArray[3].title) {
+        $("#pjpic").attr({ src: projectArray[3].pics, alt: projectArray[3].alt });
+        $("#ctitle").text(projectArray[3].title);
+        $("#ex").text(projectArray[3].explanation);
+        $("#deployed").attr("href", projectArray[3].deploy);
+        $("#repo").attr("href", projectArray[3].repo);
+        $("#tyler").text("");
+        $("#deepali").text("");
+    };
 
 
-}
+};
 
 
 // array for populating cards
@@ -112,20 +112,20 @@ const projectArray = [
 
     },
 
-]
+];
 // borrowed from previous project
 //  initially hides card
 pcard.style.display = "none";
 
 // fuction to display the Quiz card on click
 function displayCard() {
-  console.log("Displaycard function ran");
-  // once the start button is clicked, sets the card to its initial state
-  if (pcard.style.display === "none") {
-    pcard.style.display = "initial";
-  }
-//   // if start button is clicked again, will rehide the card
-//   else {
-//     pcard.style.display = "none";
-//   }
-}
+    console.log("Displaycard function ran");
+    // once the start button is clicked, sets the card to its initial state
+    if (pcard.style.display === "none") {
+        pcard.style.display = "initial";
+    };
+    //   // if start button is clicked again, will rehide the card
+    //   else {
+    //     pcard.style.display = "none";
+    //   }
+};
