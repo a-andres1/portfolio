@@ -57,6 +57,16 @@ else if (proj === projectArray[2].title){
     $("#deepali").text("");
 }
 
+else if (proj === projectArray[3].title){
+    $("#pjpic").attr({src: projectArray[3].pics, alt: projectArray[3].alt}); 
+    $("#ctitle").text(projectArray[3].title);
+    $("#ex").text(projectArray[3].explanation);
+    $("#deployed").attr("href", projectArray[3].deploy);
+    $("#repo").attr("href",projectArray[3].repo);
+    $("#tyler").text("");
+    $("#deepali").text("");
+}
+
 
 }
 
@@ -90,6 +100,15 @@ const projectArray = [
         explanation: "For this project I worked with the OpenWeather API to create a dashboard to check the weather in any given city.",
         repo: "https://github.com/a-andres1/weather-checker",
         deploy: "https://a-andres1.github.io/weather-checker/",
+
+    },
+    {
+        title: "OUTWrite",
+        pics: "./Assets/OUTWrite.gif",
+        alt: "screenshot of my project",
+        explanation: "For this project I worked with a team to create a collaborative storytelling website, with login functionality and our own database.",
+        repo: "https://github.com/a-andres1/outWrite",
+        deploy: "https://strawberry-crisp-31516.herokuapp.com/",
 
     },
 
