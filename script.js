@@ -104,7 +104,7 @@ const projectArray = [
     },
     {
         title: "OUTWrite",
-        pics: "./Assets/OUTWrite.gif",
+        pics: "./Assets/OUTwrite.gif",
         alt: "screenshot of my project",
         explanation: "For this project I worked with a team to create a collaborative storytelling website, with login functionality and our own database.",
         repo: "https://github.com/a-andres1/outWrite",
