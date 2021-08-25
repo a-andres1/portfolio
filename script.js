@@ -3,16 +3,14 @@ $(document).ready(function () {
     console.log(projectArray[0].title);
 });
 
-
-
 // function to call functions on clicks
-$(".pbtn").click(function () {
-    console.log($(this).text())
-    var proj = $(this).text()
-    displayCard();
-    writeCard(proj);
-    console.log(typeof proj)
-});
+// $(".pbtn").click(function () {
+//     console.log($(this).text())
+//     var proj = $(this).text()
+//     displayCard();
+//     writeCard(proj);
+//     console.log(proj)
+// });
 
 $(".pbtn").mouseover(function () {
     var proj = $(this).text()
@@ -106,7 +104,7 @@ const projectArray = [
         title: "OUTWrite",
         pics: "./Assets/OUTwrite.gif",
         alt: "screenshot of my project",
-        explanation: "For this project I worked with a team to create a collaborative storytelling website, with login functionality and our own database.",
+        explanation: "For this project I worked with a team to create a collaborative storytelling website with login functionality and our own database.",
         repo: "https://github.com/a-andres1/outWrite",
         deploy: "https://strawberry-crisp-31516.herokuapp.com/",
 
